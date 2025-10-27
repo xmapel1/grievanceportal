@@ -1,0 +1,15 @@
+{
+  "name": "grievance-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-frontend": "npm run --prefix ../grievance-frontend build && rm -Rf dist && cp -R ../grievance-frontend/dist .",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "pg": "^8.11.0"
+  }
+}
