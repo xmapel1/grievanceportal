@@ -1,6 +1,4 @@
-/* =======================
-   GENERAL
-======================= */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -12,9 +10,7 @@ a {
   text-decoration: none;
   color: #3498db;
 }
-/* =======================
-   NAVBAR
-======================= */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -36,12 +32,9 @@ a {
 }
 
 .nav-links a:hover {
-  color: #f5a623; /* gold hover */
+  color: #f5a623; 
 }
 
-/* =======================
-   PAGE CONTAINER
-======================= */
 .page-container {
   max-width: 700px;
   margin: 2rem auto;
@@ -51,12 +44,9 @@ a {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* =======================
-   HEADINGS
-======================= */
 h1 {
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin-bottom: 1rem;
 }
 
@@ -65,9 +55,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-/* =======================
-   GRIEVANCE LIST
-======================= */
 ul {
   list-style: none;
   padding: 0;
@@ -87,9 +74,6 @@ li em {
   color: #555;
 }
 
-/* =======================
-   FORM ELEMENTS (future)
-======================= */
 input, textarea, button {
   display: block;
   width: 100%;
@@ -109,5 +93,5 @@ button {
 }
 
 button:hover {
-  background-color: #34495e;
+  background-color: #f5a623;
 }
