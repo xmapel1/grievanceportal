@@ -8,7 +8,7 @@ function GrievanceForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    await fetch("https://grievanceportal-e75f.onrender.com/#/api/grievances", {
+    await fetch("https://grievanceportal-e75f.onrender.com/api/grievances", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, message }),
