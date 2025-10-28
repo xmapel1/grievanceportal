@@ -6,7 +6,7 @@ function Grievances() {
 
   useEffect(() => {
     async function fetchGrievances() {
-      const res = await fetch("http://localhost:3000/api/grievances");
+      const res = await fetch("https://grievanceportal-e75f.onrender.com/#/api/grievances");
       const data = await res.json();
       setGrievances(data);
       setLoading(false);
