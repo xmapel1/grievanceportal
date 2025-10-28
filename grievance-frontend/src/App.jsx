@@ -1,7 +1,7 @@
 import { createHashRouter, Link, Outlet, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import Grievances from './pages/Grievances.jsx';
-import './css/app.css'; 
+import './css/App.css'; 
 
 function App() {
   const router = createHashRouter([
