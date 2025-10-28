@@ -8,6 +8,7 @@ function Grievances() {
     async function fetchGrievances() {
       const res = await fetch("https://grievanceportal-e75f.onrender.com/api/grievances");
       const data = await res.json();
+      console.log("Fetched data:", data);
       setGrievances(data);
       setLoading(false);
     }
